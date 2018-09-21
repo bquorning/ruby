@@ -27,7 +27,7 @@ RUN set -ex \
 	&& apt-get install -y --no-install-recommends $buildDeps \
 	&& rm -rf /var/lib/apt/lists/* \
 	\
-	&& wget -O ruby.tar.xz "https://cache.ruby-lang.org/pub/ruby/stable-snapshot.tar.xz" \
+	&& wget -O ruby.tar.xz "https://cache.ruby-lang.org/pub/ruby/snapshot.tar.xz" \
 	\
 	\
 	&& mkdir -p /usr/src/ruby \
